@@ -1,0 +1,16 @@
+<ul class="sponsor-list">
+    {% for sponsor in site.categories.sponsors %}
+    <li class="sponsor-list__item">
+        <a href="{{sponsor.link}}" title="{{ sponsor.title }}">
+        {% assign images = sponsor.content | split:"<img " %}
+        {% for image in images %}
+        {% if image contains 'src=' %}
+            {% assign imageMarkup = image | split:">" | first %}
+            <img {{ imageMarkup }}>
+            {% break %}
+        {% endif %} 
+        {% endfor %}
+        </a>
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,31 @@
+.footer{
+    text-align: center;
+
+    &__mantra {
+        height: 80vh;
+        overflow: hidden;
+        text-align: left;
+        clip-path: polygon(50% 100%, 0 0, 100% 0);
+        font-size: 1rem;
+        
+        @include allAbove(medium){
+            height: 200vh;
+        }
+    }
+
+    &__social{
+
+    }
+
+    &__social-title{
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .copyright{
+        display: block;
+        margin: 2rem 0;
+        font-size: .8rem;
+    }
+}
+

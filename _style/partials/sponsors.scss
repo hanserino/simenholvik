@@ -1,0 +1,16 @@
+.sponsor-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__item{
+        width: 50%; 
+    }
+    a {
+        display: block;
+    }
+    @include allAbove(medium){
+        flex-wrap: nowrap
+    }
+}

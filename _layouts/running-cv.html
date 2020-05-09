@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include head.html %}
+</head>
+
+<body class="running-cv">
+    <header>
+        <a href="{{ "/" | relative_url }}" class="back-btn">/ Back to frontpage</a>
+        <h1>Simen Holvik's running CV</h1>
+    </header>
+
+    <section>
+        {{ content }}
+        <div class="pre-footer">
+            <a href="{{ "/" | relative_url }}" class="back-btn">/Back to frontpage</a>
+        </div>
+    </section>
+	{% include footer.html %}

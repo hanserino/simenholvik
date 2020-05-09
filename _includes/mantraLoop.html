@@ -1,0 +1,7 @@
+<div class="mantra">
+    <p class="mantra__text">
+    {% for i in (1..{{include.iterations}}) %}
+    {{include.text}}
+    {% endfor %}
+    </p>
+</div>

@@ -1,0 +1,166 @@
+// Vendor -------------- //
+@import 'lib/reset'; 
+
+// Core -------------- //
+@import 'core/vars';
+@import 'core/utils'; 
+@import 'core/icon';
+
+
+// Partials -------------- //
+@import 'partials/typography';
+@import 'partials/table';
+@import 'partials/header';
+@import 'partials/sponsors';
+@import 'partials/medium-posts';
+@import 'partials/social-links';
+@import 'partials/footer';
+
+[data-touch="false"] .mobileOnly { 
+    display: none;
+}
+
+.desktopOnly { 
+    display: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transform-style: preserve-3d;
+}
+
+@include allAbove(medium){
+    
+    [data-touch="false"] .mobileOnly {
+        
+    }
+    [data-touch="false"] .mobileOnly { 
+        display: block;
+    }
+}
+
+.main {
+    padding: 0 .5rem;
+    background: white;
+    @include allAbove(medium){
+        padding: 2rem 1rem;
+        max-width: 1200px;
+        margin: 0 auto;
+        perspective: 300px;
+    }
+}
+
+.main-section{
+    padding: 1rem 0; 
+    width: 100%;
+    position: relative;
+    z-index: 2;
+
+    &.pull-up{
+        z-index: 0;
+    }
+    
+    @include allAbove(medium){
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+    
+        &:nth-child(even){
+            align-items: flex-start;
+        }
+    }
+
+    &__inner{
+
+        @include allAbove(medium){
+            max-width: 500px;
+            background: white;
+        }
+    }
+
+    &.intro {
+        // max-width: 800px;
+        // margin: 0 auto;
+    }
+
+    &.career-highlights {
+        z-index: 3;
+        @include allAbove(medium){
+            
+        }
+    }
+    &.page-img {
+        z-index: 0;
+        img {
+            display: block;
+        }
+    }
+
+}
+
+
+.section-title{ 
+    font-size: 1.85rem;
+    margin: 1rem 0;
+    display: block;
+
+    &--small {
+        font-size: 1.25rem;
+        margin: 1rem 0;
+    }
+
+    @include allAbove(medium){
+       
+    }
+}
+
+.visuallyhidden { 
+    position: absolute; 
+    overflow: hidden; 
+    clip: rect(0 0 0 0); 
+    height: 1px; width: 1px; 
+    margin: -1px; padding: 0; border: 0; 
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.full-cv-link{
+    text-align: center;
+    display: block;
+    color: black;
+    padding: .5rem;
+}
+
+.running-cv{
+    h1{
+        font-size: 3rem;
+        line-height: 1.1;
+        margin: 1rem 0;
+        text-align: center;
+    }
+    header{
+        .back-btn{
+            background: black;
+            color: white;
+            padding: .25rem;
+        }
+    }
+    table {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .pre-footer{
+        margin: 2rem 0 4rem 0;
+        text-align: center;
+        a {
+            color: black;
+        }
+    }
+}

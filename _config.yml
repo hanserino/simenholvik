@@ -1,0 +1,60 @@
+baseurl: ""
+url: 'http://0.0.0.0:4000/'
+destination: docs
+instagram_username: simenholvik
+facebook_id: '100004793536280'
+strava_id: '34684656'
+linkedin_username: simen-holvik-663556182
+medium_username: simen.holvik
+phone_number: '+47 408 584 56'
+email: simen.holvik@gmail.com
+
+markdown: kramdown
+
+sass:
+    sass_dir: _style
+    style: compressed
+defaults:
+    -
+        scope:
+            path: ""
+            type: posts
+        values:
+            published: 'true'
+collections:
+    - sponsors
+
+prose:
+    rooturl: _posts
+    media: media
+    siteurl: 'http://simenholvik.no/'
+    relativeLinks: 'http://simenholvik.no/links.jsonp'
+    metadata:
+        _posts/agenda:
+            - {name: published, field: {element: hidden, value: 'true'}}
+            - {name: category, field: {element: hidden, value: 'history'}}
+            - {name: event_date, field: {element: text, label: 'Event date', placeholder: '2019-02-12', value: ""}}
+            - {name: title, field: {element: text, label: 'Event name', placeholder: 'Bislett 24', value: ""}}
+            - {name: country, field: {element: text, label: 'Country', placeholder: 'NOR', value: ""}}
+            - {name: link, field: {element: text, label: Link, placeholder: 'http://epic100miles.com/', value: ""}}
+            - {name: distance, field: {element: text, label: Distance, placeholder: '160km', value: ""}}
+            - {name: elevation, field: {element: text, label: Elevation gain, placeholder: '3000m', value: ""}}
+            - {name: surface, field: {element: text, label: Surface / type of event , placeholder: 'Trail', value: ""}}
+        _posts/history:
+            - {name: published, field: {element: hidden, value: 'true'}}
+            - {name: category, field: {element: hidden, value: 'history'}}
+            - {name: event_date, field: {element: text, label: 'Event date', placeholder: '2019-02-12', value: ""}}
+            - {name: title, field: {element: text, label: 'Event name', placeholder: 'Bislett 24', value: ""}}
+            - {name: country, field: {element: text, label: 'Country', placeholder: 'NOR', value: ""}}
+            - {name: link, field: {element: text, label: Link, placeholder: 'http://epic100miles.com/', value: ""}}
+            - {name: distance, field: {element: text, label: Distance, placeholder: '160km', value: ""}}
+            - {name: time, field: {element: text, label: Time, placeholder: '23:02:09', value: ""}}
+            - {name: elevation, field: {element: text, label: Elevation gain, placeholder: '3000m', value: ""}}
+            - {name: ranking, field: {element: text, label: Ranking, placeholder: '1/1769', value: ""}}
+            - {name: surface, field: {element: text, label: Surface / type of event , placeholder: 'Trail', value: ""}}
+            - {name: highlight, field: {element: checkbox, label: Highlight, value: false}}
+        _posts/sponsors:
+            - {name: published, field: {element: hidden, value: 'true'}}
+            - {name: category, field: {element: hidden, value: 'sponsors'}}
+            - {name: title, field: {element: text, label: 'Sponsor name', placeholder: 'Craft', value: ""}}
+            - {name: link, field: {element: text, label: Link, placeholder: 'http://craftwear.no/', value: ""}}
