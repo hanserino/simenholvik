@@ -2,11 +2,11 @@
 category: history
 published: true
 highlight: false
-title: 'Trondheim Maraton'
+title: Trondheim Maraton
 event_date: '2019-09-07'
 country: NOR
-surface: Asphalt
+surface: Road
 distance: '42,195'
 time: '02:51:13'
-ranking: '16 / 486'
+ranking: 16 / 486
 ---
