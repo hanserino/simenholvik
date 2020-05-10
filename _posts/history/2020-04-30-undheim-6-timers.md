@@ -8,4 +8,5 @@ surface: Road
 distance: '66,595'
 ranking: 6 / 19
 highlight: false
+time: '06:00:00'
 ---
