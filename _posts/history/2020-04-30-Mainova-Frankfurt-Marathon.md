@@ -3,7 +3,7 @@ category: history
 published: true
 highlight: false
 title: Mainova Frankfurt Marathon
-event_date: '2016-06-17'
+event_date: '2017-10-29'
 country: GER
 surface: Road
 distance: '42,195'
