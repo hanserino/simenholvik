@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: Oslofjorden rundt
+title: Oslofjorden Rundt
 event_date: '2020-08-01'
 country: NOR
 surface: Road
