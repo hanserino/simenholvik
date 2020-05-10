@@ -2,11 +2,11 @@
 category: history
 published: true
 highlight: false
-title: 'Kodalmila'
+title: Kodalmila
 event_date: '2018-09-08'
 country: NOR
-surface: Asphalt
+surface: Road
 distance: '10000'
 time: '00:38:44'
-ranking: '8 / 87'
+ranking: 8 / 87
 ---
