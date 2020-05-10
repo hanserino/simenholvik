@@ -2,11 +2,11 @@
 category: history
 published: true
 highlight: false
-title: 'Karmøy Maraton'
+title: Karmøy Maraton
 event_date: '2017-11-18'
 country: NOR
-surface: Asphalt
+surface: Road
 distance: '42,195'
 time: '03:13:51'
-ranking: '14 / 99'
+ranking: 14 / 99
 ---
