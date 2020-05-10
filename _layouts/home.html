@@ -35,7 +35,7 @@
 			</div>
 		</section>
 
-		<section class="main-section page-img" data-scroll-speed="2">
+		<section class="main-section page-img">
 			<div class="main-section__inner">
 				<img src={{ "/media/simen-2.jpg" | relative_url }} alt="Simen Holvik"/>
 			</div>
@@ -47,7 +47,7 @@
 			</div>
 		</section>
 
-		<section class="main-section agenda" id="#agenda" data-scroll-speed="2">
+		<section class="main-section agenda" id="#agenda">
 			<div class="main-section__inner">
 				<header>
 					<h2 class="section-title--small">Here's what I'm planning for the near future:</h2>
@@ -56,20 +56,20 @@
 			</div>
 		</section>
 
-		<section class="main-section blog"  data-scroll-speed="3">
+		<section class="main-section blog">
 			<div class="main-section__inner">
 				<h2 class="section-title"> I do some <em>writing</em> on Medium, mostly in Norwegian. Have a look.</h2>
 				{% include mediumPosts.html %}
 			</div>
 		</section>
 
-		<section class="main-section page-img" data-scroll-speed="2">
+		<section class="main-section page-img">
 			<div class="main-section__inner">
 				<img src={{ "/media/simen-3.jpg" | relative_url }} />
 			</div>
 		</section>
 
-		<section class="main-section sponsors" data-scroll-speed="2">
+		<section class="main-section sponsors">
 			<div class="main-section__inner">
 				<header>
 					<h2 class="section-title">I'm lucky enough to have some great <em class="highlight">sponsors</em> with me on my journey. Check them out:</h2>
@@ -77,9 +77,6 @@
 				{% include sponsors.html %}
 			</div>
 		</section>
-
-		<div data-scroll-speed="4">
-			{% include footer.html %}
-		</div>
-
 	</main>
+	
+	{% include footer.html %}

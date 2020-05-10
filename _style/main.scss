@@ -68,16 +68,25 @@ body {
         display: flex;
         flex-flow: column;
         align-items: flex-end;
+        margin-bottom: 1rem;
     
         &:nth-child(even){
             align-items: flex-start;
         }
     }
 
+    @include allAbove(large){
+        margin-bottom: -5rem;
+    }
+
     &__inner{
 
         @include allAbove(medium){
-            max-width: 500px;
+            max-width: 460px;
+            background: white;
+        }
+        @include allAbove(large){
+            max-width: 550px;
             background: white;
         }
     }

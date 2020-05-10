@@ -1,5 +1,9 @@
 .footer{
     text-align: center;
+    
+    @include allAbove(medium){
+        margin-top: 5rem;
+    }
 
     &__mantra {
         height: 80vh;
