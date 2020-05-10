@@ -34,7 +34,7 @@ prose:
     metadata:
         _posts/agenda:
             - {name: published, field: {element: hidden, value: 'true'}}
-            - {name: category, field: {element: hidden, value: 'history'}}
+            - {name: category, field: {element: hidden, value: 'agenda'}}
             - {name: event_date, field: {element: text, label: 'Event date', placeholder: '2019-02-12', value: ""}}
             - {name: title, field: {element: text, label: 'Event name', placeholder: 'Bislett 24', value: ""}}
             - {name: country, field: {element: text, label: 'Country', placeholder: 'NOR', value: ""}}
