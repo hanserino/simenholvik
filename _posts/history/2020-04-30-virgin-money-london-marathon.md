@@ -1,7 +1,7 @@
 ---
 category: history
 published: true
-highlight: true
+highlight: false
 title: Virgin Money London Marathon
 event_date: '2016-04-28'
 country: GBR
