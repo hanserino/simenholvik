@@ -2,7 +2,7 @@
 category: history
 published: true
 highlight: false
-title: 'Lysefjorden Rundt Extreme Ultra Trail '
+title: Stavanger Maraton
 event_date: '2017-07-25'
 country: NOR
 surface: Road
