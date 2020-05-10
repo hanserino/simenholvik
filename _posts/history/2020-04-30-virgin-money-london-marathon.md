@@ -8,5 +8,5 @@ country: GBR
 distance: '42,195'
 time: '03:09:37'
 ranking: '3139'
-surface: Asphalt
+surface: Road
 ---
