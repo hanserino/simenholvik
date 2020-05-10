@@ -13,12 +13,14 @@
             <td role="cell">{{agendaItem.event_date | date: "%d-%m-%Y" }}</td>
             <td role="cell">{% if agendaItem.link %}<a href="{{agendaItem.link}}">{{agendaItem.title}}</a>{% else %}{{agendaItem.title}} {% endif %}</td>
             <td role="cell">
+              {% if agendaItem.distance != '' %}
               {{agendaItem.distance | replace: ',', '' | divided_by: 1000 | append: 'km' }}
+              {% endif %}
               {% if agendaItem.elevation %}
-              , {{agendaItem.elevation | replace: ',', ''| append: 'm d+' }}
+              {{agendaItem.elevation | replace: ',', ''| append: 'm d+' }}
               {% endif %}
               {% if agendaItem.surface %}
-              , {{agendaItem.surface | downcase }}
+              {{agendaItem.surface | downcase }}
               {% endif %}
             </td>
           </tr>

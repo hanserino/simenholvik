@@ -5,9 +5,19 @@ table {
 	margin: 0 auto;
 	font-size: 1rem;
 
+	.home & {
+		table-layout: fixed;
+
+		
+	}
+
 	thead th {
 		position: sticky;
 		top: 0;
+	}
+
+	.event {
+		width: 12rem;
 	}
 	
 	th {
@@ -17,7 +27,7 @@ table {
 		font-weight: bold;
 	}
 
-	td, th {
+	tr, td, th {
 		border: 1px solid #ddd;
 		padding: .25rem .4rem;
 	}
@@ -31,8 +41,27 @@ table {
 	}
 	
 	&.complex {
+		font-size: .85rem;
+
 		tr:nth-child(even){
 			background: #f7f7f7;
 		}
+
+		@include allAbove(medium){
+			font-size: 1rem;
+
+			.event {
+				width: 25rem;
+			}
+		}
+	
 	}
+}
+
+thead tr th:first-child,
+tbody tr td:first-child {
+  width: 7em;
+  min-width: 7em;
+  max-width: 7em;
+  word-break: break-all;
 }

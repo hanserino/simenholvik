@@ -4,7 +4,7 @@
     <thead role="rowgroup">
       <tr role="row">
         <th role="columnheader">Date</th>
-        <th role="columnheader">Event</th>
+        <th role="columnheader" class="event">Event</th>
         <th role="columnheader">Details</th>
         <th role="columnheader">Time</th>
         <th role="columnheader">Ranking</th>
@@ -20,10 +20,10 @@
             <td role="cell">
               {{historyItem.distance | replace: ',', '' | divided_by: 1000 | append: 'km' }}
               {% if historyItem.elevation %}
-              , {{historyItem.elevation | replace: ',', ''| append: 'm d+' }}
+              {{historyItem.elevation | replace: ',', ''| append: 'm d+' }}
               {% endif %}
               {% if historyItem.surface %}
-              , {{historyItem.surface | downcase }}
+              {{historyItem.surface | downcase }}
               {% endif %}
             </td>
             <td role="cell">{{historyItem.time}}</td>
