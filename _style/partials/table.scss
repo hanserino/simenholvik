@@ -5,12 +5,6 @@ table {
 	margin: 0 auto;
 	font-size: 1rem;
 
-	.home & {
-		table-layout: fixed;
-
-		
-	}
-
 	thead th {
 		position: sticky;
 		top: 0;
@@ -36,9 +30,13 @@ table {
 		color: inherit;
 	}
 
-	@include allAbove(medium){
+	.home & {
+		@include allAbove(medium){
+			table-layout: fixed;
+		}
 		
 	}
+	
 	
 	&.complex {
 		font-size: .85rem;
