@@ -1,7 +1,7 @@
 ---
 category: history
 published: true
-title: ''
+title: Untitled
 ---
 ### A New Post
 
