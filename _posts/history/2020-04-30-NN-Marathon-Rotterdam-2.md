@@ -8,6 +8,6 @@ country: NED
 surface: Road
 distance: '42,195'
 time: '02:52:02'
-ranking: 219 / 13997
+ranking: '219'
 ---
 First sub 3
