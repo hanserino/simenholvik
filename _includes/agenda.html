@@ -2,27 +2,30 @@
 <table role="table" class="agenda-table">
     <thead role="rowgroup">
       <tr role="row">
-        <th role="columnheader">Date</th>
-        <th role="columnheader">Event</th>
-        <th role="columnheader">Details</th>
+        <th role="columnheader" class="date">Date</th>
+        <th role="columnheader" class="event">Event</th>
       </tr>
     </thead>
     <tbody role="rowgroup">
         {% for agendaItem in sortedAgendaItems %}
         <tr role="row" class="{% if agendaItem.highlight %}highlight {% endif %}"> 
-            <td role="cell">{{agendaItem.event_date | date: "%d-%m-%Y" }}</td>
-            <td role="cell">{% if agendaItem.link %}<a href="{{agendaItem.link}}">{{agendaItem.title}}</a>{% else %}{{agendaItem.title}} {% endif %}</td>
+            <td role="cell">{{agendaItem.event_date | date: "%d.%m.%y" }}</td>
             <td role="cell">
+              {% if agendaItem.link %}
+              <a href="{{agendaItem.link}}">{{agendaItem.title}}</a>
+              {% else %}
+              {{agendaItem.title}} 
+              {% endif %}
               {% if agendaItem.distance != '' %}
-              {{agendaItem.distance | replace: ',', '' | divided_by: 1000 | append: 'km' }}
+              | {{agendaItem.distance | replace: ',', '' | divided_by: 1000 | append: 'km' }}
               {% endif %}
               {% if agendaItem.elevation %}
-              {{agendaItem.elevation | replace: ',', ''| append: 'm d+' }}
+              | {{agendaItem.elevation | replace: ',', ''| append: 'm d+' }}
               {% endif %}
               {% if agendaItem.surface %}
-              {{agendaItem.surface | downcase }}
+              | {{agendaItem.surface | downcase }}
               {% endif %}
-            </td>
+              </td>
           </tr>
 	    {% endfor %}
     </tbody>
