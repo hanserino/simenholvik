@@ -9,11 +9,19 @@ table {
 		position: sticky;
 		top: 0;
 	}
-
-	.event {
-		width: 12rem;
+	.ranking {
+		width: 3rem;
 	}
-	
+	.time {
+		width: 5rem;
+	}
+	.event {
+		width: auto;
+	}
+	.date {
+		width: 4.5rem;
+	}
+
 	th {
 		text-align: left;
 		background-color: black;
@@ -36,10 +44,10 @@ table {
 		}
 		
 	}
-	
+
 	
 	&.complex {
-		font-size: .85rem;
+		font-size: .85rem; 
 
 		tr:nth-child(even){
 			background: #f7f7f7;
@@ -54,12 +62,4 @@ table {
 		}
 	
 	}
-}
-
-thead tr th:first-child,
-tbody tr td:first-child {
-  width: 7em;
-  min-width: 7em;
-  max-width: 7em;
-  word-break: break-all;
 }

@@ -3,11 +3,10 @@
 <table role="table" class="history-table">
     <thead role="rowgroup">
       <tr role="row">
-        <th role="columnheader">Date</th>
+        <th role="columnheader" class="date">Date</th>
         <th role="columnheader" class="event">Event</th>
-        <th role="columnheader">Details</th>
-        <th role="columnheader">Time</th>
-        <th role="columnheader">Ranking</th>
+        <th role="columnheader" class="time">Time</th>
+        <th role="columnheader" class="ranking" title="ranking">#</th>
       </tr>
     </thead>
     
@@ -15,14 +14,18 @@
         {% for historyItem in sortedHistoryItems %}
         {% if historyItem.highlight %}
         <tr role="row"> 
-            <td role="cell">{{historyItem.event_date | date: "%d-%m-%Y" }}</td>
-            <td role="cell">{% if historyItem.link %}<a href="{{historyItem.link}}">{{historyItem.title}}</a>{% else %}{{historyItem.title}} {% endif %}</td>
+            <td role="cell">{{historyItem.event_date | date: "%d.%m.%y" }}</td>
             <td role="cell">
-              {{historyItem.distance | replace: ',', '' | divided_by: 1000 | append: 'km' }}
-              {% if historyItem.elevation %}
-              {{historyItem.elevation | replace: ',', ''| append: 'm d+' }}
+              {% if historyItem.link %}
+              <a href="{{historyItem.link}}">{{historyItem.title}}</a>
+              {% else %}{{historyItem.title}} {% endif %}
+              {% if historyItem.distance %}
+              | {{historyItem.distance | replace: ',', '' | divided_by: 1000 | append: 'km' }}
               {% endif %}
-              {% if historyItem.surface %}
+              {% if historyItem.elevation %}
+              | {{historyItem.elevation | replace: ',', ''| append: 'm d+' }}
+              {% endif %}
+              | {% if historyItem.surface %}
               {{historyItem.surface | downcase }}
               {% endif %}
             </td>
