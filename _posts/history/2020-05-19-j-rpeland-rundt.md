@@ -8,4 +8,5 @@ distance: '20039'
 elevation: '1516'
 surface: Trail
 time: '03:05:11'
+ranking: 28/35
 ---
