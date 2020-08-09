@@ -3,6 +3,11 @@ category: history
 published: true
 highlight: false
 title: 2020-08-08_Preikestolen Trail Run
+event_date: '2020-08-08'
+distance: '24000'
+surface: Trail
+ranking: '38'
+time: '04:53:16'
 ---
 ## A New Post
 
