@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: IAU 6H Virtual Global Solidarity Run
+title: 24 Hours in Hell
 event_date: '2020-08-29'
 country: NOR
 surface: Road
