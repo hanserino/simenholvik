@@ -2,7 +2,7 @@
 category: history
 published: true
 highlight: false
-title: 2020-08-29_Stavanger_Halvmaraton
+title: Stavanger Maraton - halvmaraton
 event_date: '2020-08-29'
 distance: '21097'
 time: '01:29:08'
