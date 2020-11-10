@@ -18,7 +18,7 @@ function init(){
     var mediumPostListContainerEl = document.getElementById('medium-post-list-container');
     
     if(mediumPostsEl){
-        fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@simen.holvik')
+        fetch('https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@simen-holvik')
         .then((res) => res.json())
         .then((data) => {
                 mediumPostsEl.dataset.fetchSuccess = true;
