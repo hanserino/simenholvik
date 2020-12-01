@@ -1,7 +1,7 @@
 ---
 category: history
 published: true
-highlight: false
+highlight: true
 title: Gloucester 50km
 event_date: '2020-01-19'
 country: GBR
