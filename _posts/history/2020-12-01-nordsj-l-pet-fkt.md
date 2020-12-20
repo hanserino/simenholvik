@@ -1,13 +1,12 @@
 ---
 category: history
 published: true
-highlight: true
-title: 24 Hours in Hell
-event_date: '2020-09-18'
-distance: '253355'
-time: '24:00:00'
-ranking: '1'
-surface: Road
+highlight: false
+title: Nordsjøløpet FKT
+event_date: '2020-10-16'
+surface: Trail/Road
+distance: '90940 '
+time: '08:09:39'
 ---
 ## A New Post
 

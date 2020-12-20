@@ -1,8 +1,8 @@
 ---
 category: agenda
 published: true
-title: NM 100 km
-event_date: '2020-12-05'
+title: SPARTATHLON
+event_date: '2021-09-24'
 surface: Road
-distance: '100000'
+distance: '245000'
 ---
