@@ -1,8 +1,8 @@
 ---
 category: agenda
 published: true
-title: Desert Solstice 24h
-event_date: '2021-12-21'
+title: Aravaipa Desert Solstice 24h
+event_date: '2021-12-11'
 surface: Track
 ---
 ## A New Post
