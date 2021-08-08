@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: Aravaipa Desert Solstice 24h
+title: Desert Solstice 24 Hour and 100 Mile Track Invitational
 event_date: '2021-12-11'
 surface: Track
 ---
