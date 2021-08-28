@@ -2,7 +2,7 @@
 category: history
 published: true
 title: Stavanger Maraton
-event_date: '2015-07-19'
+event_date: '2015-08-28'
 distance: '21,098'
 time: DNF
 surface: Road
