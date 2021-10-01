@@ -1,7 +1,7 @@
 ---
 category: history
 published: true
-highlight: false
+highlight: true
 title: Spartathlon ULTRA Race
 event_date: '2021-09-24'
 distance: '246'
