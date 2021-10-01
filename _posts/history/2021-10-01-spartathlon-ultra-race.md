@@ -4,7 +4,7 @@ published: true
 highlight: true
 title: Spartathlon ULTRA Race
 event_date: '2021-09-24'
-distance: '246'
+distance: '246000'
 time: '27:48:30'
 surface: Road
 ranking: 20/341
