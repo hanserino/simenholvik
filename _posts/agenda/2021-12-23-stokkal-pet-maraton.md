@@ -3,7 +3,8 @@ category: agenda
 published: true
 title: Stokkaløpet maraton
 event_date: '2022-03-19'
-distance: '42195'
+distance: '21097'
+surface: Road
 ---
 ## A New Post
 
