@@ -3,7 +3,7 @@ category: history
 published: true
 highlight: false
 title: Hoka Solastranden Halvmaraton
-event_date: '2022-03-22'
+event_date: '2022-03-19'
 distance: '21093'
 time: DNS
 surface: Road
