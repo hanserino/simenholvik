@@ -1,10 +1,11 @@
 ---
 category: agenda
 published: true
-title: 'FKT: Athen - Sparta - Athen - Marathon - Athen'
-event_date: '2022-07-04'
-distance: '550000'
+title: 'FKT: Maraton - Aten - Sparta - Aten - Maraton - Aten'
+event_date: '2022-07-01'
+distance: '620000'
 surface: Road
+elevation: '6700'
 ---
 ## A New Post
 
