@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: Stavanger Maraton
+title: North Downs Way 100
 event_date: '2022-08-07'
 distance: '42125'
 surface: Road
