@@ -1,7 +1,7 @@
 ---
 category: history
 published: true
-highlight: false
+highlight: true
 title: 'FKT: Marathon - Sparta - Marathon - Athen'
 event_date: '2022-07-08'
 surface: Road
