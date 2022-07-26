@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: SPARTATHLON Ultra Race
+title: '* SPARTATHLON Ultra Race'
 event_date: '2022-09-30'
 distance: '246000'
 surface: Road
