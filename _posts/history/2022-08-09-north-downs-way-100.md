@@ -7,6 +7,7 @@ event_date: '2022-08-06'
 distance: '165000'
 time: '20:07:59'
 ranking: 7/219
+surface: Trail
 ---
 ## A New Post
 
