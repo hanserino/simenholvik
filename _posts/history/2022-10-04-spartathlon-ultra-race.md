@@ -1,12 +1,13 @@
 ---
 category: history
 published: true
-highlight: false
+highlight: true
 title: Spartathlon ULTRA Race
 event_date: '2022-09-30'
 distance: '256000'
 ranking: '16'
 surface: Road
+time: '28:56:39'
 ---
 ## A New Post
 
