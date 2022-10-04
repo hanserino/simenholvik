@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: Bislett 24-timers
+title: Bislett 24-hour Indoor Challenge
 event_date: '2022-11-26'
 surface: Track
 ---
