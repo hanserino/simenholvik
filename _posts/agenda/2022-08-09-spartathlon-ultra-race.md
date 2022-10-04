@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: Spartathlon ULTRA Race
+title: Spartathlon ULTRA Race (?)
 event_date: '2023-09-29'
 surface: road
 distance: '246000'
