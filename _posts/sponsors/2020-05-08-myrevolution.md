@@ -1,6 +1,6 @@
 ---
 category: sponsors
-published: true
+published: false
 title: MyRevolution
 link: 'https://myrevolution.no/'
 ---
