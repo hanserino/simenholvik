@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: Sofienmyr 12-hours outdoor track (400m)
+title: Captare 12-timers
 surface: Track
 country: Norway
 event_date: '2023-04-15'
