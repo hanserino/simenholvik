@@ -7,6 +7,7 @@ event_date: '2023-04-15'
 time: '12:00:00'
 surface: Track
 distance: '138357'
+ranking: 1/17
 ---
 ## A New Post
 
