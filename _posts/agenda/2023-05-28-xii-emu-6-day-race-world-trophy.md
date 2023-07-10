@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: XII. EMU 6 DAY RACE WORLD TROPHY
+title: XII. EMU 6 day race world trophy
 event_date: '2023-09-14'
 surface: Road
 ---
