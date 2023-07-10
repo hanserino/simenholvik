@@ -1,7 +1,9 @@
 ---
 category: agenda
 published: true
-title: 'Fat Ox Endurance Runs '
+title: Fat Ox Endurance Runs - 48 hour
+event_date: '2023-11-17'
+surface: Road
 ---
 ## A New Post
 
