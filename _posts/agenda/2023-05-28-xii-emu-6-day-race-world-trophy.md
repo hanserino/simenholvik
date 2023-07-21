@@ -2,8 +2,9 @@
 category: agenda
 published: true
 title: SPARTATHLON
-event_date: '2023-09-14'
+event_date: '2023-09-30'
 surface: Road
+distance: '246000'
 ---
 ## A New Post
 
