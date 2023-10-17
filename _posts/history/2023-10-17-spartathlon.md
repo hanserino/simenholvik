@@ -2,7 +2,7 @@
 category: history
 published: true
 highlight: true
-title: Spartathlon
+title: Spartathlon ULTRA Race
 event_date: '2023-09-30'
 distance: '246000'
 surface: Road
