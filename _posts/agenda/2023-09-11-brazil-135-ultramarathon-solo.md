@@ -4,6 +4,7 @@ published: true
 title: Brazil 135 Ultramarathon Solo
 event_date: '2024-01-11'
 distance: '238000'
+surface: Road
 ---
 ## A New Post
 
