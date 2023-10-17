@@ -2,7 +2,7 @@
 category: history
 published: true
 highlight: true
-title: SPARTATHLON
+title: Spartathlon
 event_date: '2023-09-30'
 distance: '246000'
 surface: Road
