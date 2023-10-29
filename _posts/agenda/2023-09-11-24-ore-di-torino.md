@@ -2,7 +2,7 @@
 category: agenda
 published: true
 title: 24 ore di Torino
-event_date: '2024-02-25'
+event_date: '2024-03-09'
 surface: Road
 ---
 ## A New Post
