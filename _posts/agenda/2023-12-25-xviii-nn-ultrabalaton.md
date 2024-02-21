@@ -2,7 +2,7 @@
 category: agenda
 published: true
 title: XVIII. NN Ultrabalaton
-event_date: '2024-05-02'
+event_date: '2024-05-03'
 distance: '211000'
 ---
 ## A New Post
