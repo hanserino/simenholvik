@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: '40th Across the years, 6-days ?'
+title: Desert Solstice 24 hour track invitational
 event_date: '2024-12-28'
 ---
 ## A New Post
