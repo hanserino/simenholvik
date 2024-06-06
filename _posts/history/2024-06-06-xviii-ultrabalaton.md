@@ -3,7 +3,7 @@ category: history
 published: 'true'
 highlight: false
 title: 'XVIII. Ultrabalaton '
-event_date: '2024-03-05'
+event_date: '2024-05-02'
 distance: '211000'
 time: '19:37:44'
 ranking: 3/158
