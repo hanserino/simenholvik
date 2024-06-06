@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: true
-title: SPARTATHLON
+title: Spartathlon
 event_date: '2024-09-28'
 surface: Road
 distance: '246000'
