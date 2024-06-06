@@ -4,6 +4,7 @@ published: 'true'
 title: Marathon Des Sables
 event_date: '2025-04-11'
 surface: Sand
+distance: '250000'
 ---
 ## A New Post
 
