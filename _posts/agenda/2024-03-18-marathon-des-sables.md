@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: 'true'
-title: Marathon Des Sables ?
+title: Marathon Des Sables
 event_date: '2025-04-11'
 surface: Sand
 ---
