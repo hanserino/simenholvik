@@ -4,6 +4,7 @@ published: 'true'
 title: Trans-Sweden self-supported FKT
 distance: '2000000'
 surface: Trail/road
+event_date: '2025-10-06'
 ---
 ## A New Post
 
