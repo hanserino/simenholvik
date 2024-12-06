@@ -1,7 +1,7 @@
 ---
 category: agenda
 published: 'true'
-title: Spartathlon
+title: Spartathlon ???
 event_date: '2025-09-27'
 distance: '246000'
 surface: Road
