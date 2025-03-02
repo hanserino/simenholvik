@@ -1,9 +1,8 @@
 ---
 category: agenda
 published: 'true'
-title: Spartathlon (???)
-event_date: '2025-09-27'
-distance: '246000'
+title: 2025 IAU 24H World Championships
+event_date: '2025-10-18'
 surface: Road
 ---
 ## A New Post
