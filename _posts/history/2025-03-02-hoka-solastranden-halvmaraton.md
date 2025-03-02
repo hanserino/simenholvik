@@ -3,6 +3,10 @@ category: history
 published: 'true'
 highlight: false
 title: HOKA Solastranden halvmaraton
+event_date: '2025-01-11'
+distance: '21,095'
+time: '01:26:51'
+surface: Road
 ---
 ## A New Post
 
