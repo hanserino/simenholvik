@@ -4,7 +4,7 @@ published: 'true'
 highlight: false
 title: HOKA Solastranden 10 km
 event_date: '2025-01-11'
-distance: '10'
+distance: '10000'
 time: '00:38:55'
 surface: Road
 ---
