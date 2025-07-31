@@ -4,7 +4,7 @@ published: 'true'
 title: Stavanger Marathon
 distance: '42125'
 surface: Road
-event_date: '2025-30-08'
+event_date: '2025-08-30'
 ---
 ## A New Post
 
